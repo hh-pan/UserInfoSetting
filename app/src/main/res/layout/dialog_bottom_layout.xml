@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pick_photo_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_text_first_background"
+        android:gravity="center"
+        android:padding="@dimen/dp_15"
+        android:text="@string/take_photo"
+        android:textColor="@color/vs_blue_slight"
+        android:textSize="@dimen/sp_16"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/vs_line_color"/>
+
+    <TextView
+        android:id="@+id/pick_photo_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_text_last_background"
+        android:gravity="center"
+        android:padding="@dimen/dp_15"
+        android:text="@string/get_photo"
+        android:textColor="@color/vs_blue_slight"
+        android:textSize="@dimen/sp_16"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/pick_photo_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_text_bottom_background"
+        android:gravity="center"
+        android:padding="@dimen/dp_15"
+        android:text="@string/cancel"
+        android:textColor="@color/vs_blue_slight"
+        android:textSize="@dimen/sp_16"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_25"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">UserInfoSetting</string>
+    <string name="take_photo">拍一张</string>
+    <string name="get_photo">从手机相册选择</string>
+    <string name="cancel">取消</string>
+    <string name="sdcard_no_exist">SD卡不存在</string>
+    <string name="camera_not_prepared">摄像头尚未准备好</string>
+    <string name="input_name_hint">由3-24位汉字，字母，数字组成</string>
+    <string name="input_name_tip">设置后不可更改哦</string>
 </resources>

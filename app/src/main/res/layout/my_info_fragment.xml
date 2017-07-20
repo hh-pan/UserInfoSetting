@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/french_gray"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/info_head_imag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_1"
+        android:background="@drawable/itme_bg_color_selector">
+
+        <ImageView
+            android:id="@+id/head_imag_right_iocn"
+            style="@style/pay_center_img"/>
+
+        <TextView
+            android:id="@+id/txt_head_imag"
+            style="@style/pay_center_txt"
+            android:drawableLeft="@drawable/mine_guide_buy"
+            android:text="头像"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/head_imag_setting"
+            android:layout_width="@dimen/dp_55"
+            android:layout_height="@dimen/dp_55"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/dp_10"
+            android:layout_toLeftOf="@+id/head_imag_right_iocn"
+            android:background="@drawable/head_img"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/info_username"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_59"
+        android:layout_marginTop="@dimen/dp_1"
+        android:background="@drawable/itme_bg_color_selector">
+
+        <ImageView
+            android:id="@+id/rl_username_array"
+            style="@style/pay_center_img"/>
+
+        <TextView
+            android:id="@+id/nick_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_toLeftOf="@id/rl_username_array"
+            android:gravity="center_vertical"
+            android:text="用户设置的昵称"
+            android:textSize="@dimen/sp_14"/>
+
+        <TextView
+            style="@style/pay_center_txt"
+            android:drawableLeft="@drawable/mine_guide_buy"
+            android:text="用户名"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/info_address"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_59"
+        android:layout_marginTop="@dimen/dp_1"
+        android:background="@drawable/itme_bg_color_selector">
+
+        <ImageView
+            style="@style/pay_center_img"/>
+
+        <TextView
+            style="@style/pay_center_txt"
+            android:drawableLeft="@drawable/mine_guide_buy"
+            android:text="收货地址"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/info_change_pwd"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_59"
+        android:layout_marginTop="@dimen/dp_1"
+        android:background="@drawable/itme_bg_color_selector">
+
+        <ImageView
+            style="@style/pay_center_img"/>
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/pay_center_txt"
+            android:drawableLeft="@drawable/mine_guide_buy"
+            android:text="修改密码"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/log_off"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_margin="50dp"
+        android:background="@color/red"
+        android:text="退出当前账号"
+        android:textColor="@color/white"/>
+</LinearLayout>

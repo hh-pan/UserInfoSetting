@@ -3,4 +3,23 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="gray">#A0A0A0</color>
+    <color name="white">#fff</color>
+    <color name="vs_blue_sdeep">#2087C9</color>
+    <color name="red">#e60012</color>
+
+    <!--浅灰色-->
+    <color name="french_gray">#f0f0f0</color>
+    <!--深灰色-->
+    <color name="deep_gray">#5B5758</color>
+    <!--黑-->
+    <color name="black">#252525</color>
+    <!--金黄色-->
+    <color name="gold">#E7BD2B</color>
+    <!--透明-->
+    <color name="lucency">#00000000</color>
+    <color name="vs_blue_slight">#3EA9FA</color>
+    <color name="vs_line_color">#e5e5e5</color>
+    <color name="PersonalSelBg">#e4e4e4</color>
 </resources>

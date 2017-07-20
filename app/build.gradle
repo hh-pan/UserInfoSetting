@@ -26,4 +26,15 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
+
+    //圆头像
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+
+    //黄油刀
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    //Glide图片请求
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //动态权限
+    compile 'com.yanzhenjie:permission:1.0.8'
 }
